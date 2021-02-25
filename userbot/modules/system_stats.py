@@ -262,16 +262,16 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**▬▬▬▬▬▬❙۩♛۩❙▬▬▬▬▬▬**\n"
-        f"     **☻ GabutC-UBot ☻** \n\n"
-        f"❃ **My Love**     \n   ➥ `{DEFAULTUSER}` \n"
-        f"❃ **Username** \n   ➥ `@{user.username}` \n"
-        f"❃ **Telethon** \n   ➥ `Versi {version.__version__}` \n"
-        f"❃ **Python**   \n   ➥ `Versi {python_version()}` \n"
-        f"❃ **Versi Bot**\n   ➥ `{BOT_VER}` \n"
-        f"❃ **Modul**    \n   ➥ `{len(modules)}` \n\n"
-        f"❃ **Repo Userbot:** [GabutC-UBot](https://github.com/Ependelope53/GabutC-UBot)\n❃ **Grup Userbot: **[Tekan](t.me/LordUserbot_Group)\n❃ **Pemilik:** [Hendra](t.me/AkuUserBot)\n"
-        f"**▬▬▬▬▬▬❙۩★۩❙▬▬▬▬▬▬**")
+        f"**╭►▻►▻►▻►▻►▻►◄◅◄◅◄◅◄◅◄◅╮**\n"
+        f"     **☻⚔ GabutC-UBot ⚔☻** \n\n"
+        f"❅ **☠️ My Love**   ⇄ `{DEFAULTUSER}` \n"
+        f"❃ **👶 Username**  ⇄ `@{user.username}` \n"
+        f"❅ **💻 Telethon**  ⇄ `Versi {version.__version__}` \n"
+        f"❃ **🐍 Python**    ⇄ `Versi {python_version()}` \n"
+        f"❅ **⏳ Versi Bot** ⇄ `{BOT_VER}` \n"
+        f"❃ **💡 Modul**     ⇄ `{len(modules)}` \n\n"
+        f"❅ **🔧 Repo Userbot:** [GabutC-UBot](https://github.com/Ependelope53/GabutC-UBot)\n❃ **Grup Userbot: **[Tekan](t.me/LordUserbot_Group)\n❃ **Pemilik:** [Hendra](t.me/AkuUserBot)\n"
+        f"**╰►▻►▻►▻►▻►▻►◄◅◄◅◄◅◄◅◄◅╯**")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -297,16 +297,16 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"❤**GabutC-UBot** \n\n"
-        f"💛 **BOS:** \n"
-        f"💚 `{DEFAULTUSER}` \n"
-        f"💙 **Username:** \n"
-        f"💜 `@{user.username}` \n\n"
+        f"❤ : **GabutC-UBot** \n\n"
+        f"💛 : **BOS:** \n"
+        f"💚 : **`{DEFAULTUSER}`** \n"
+        f"💙 : **Username:** \n"
+        f"💜 : **`@{user.username}`** \n\n"
         f"**GabutC-UBot Adalah Userbot Khusus **"
         f"**Yang Digunakan Untuk Bersenang-Senang** "
-        f"**Di Telegram** **Versi Bot Yang Digunakan** `{BOT_VER}` "
-        f"**Jumlah Modul Dalam GabutC-UBot** `{len(modules)}` \n\n"
-        f"𖣘 **Repo Userbot:** [GabutC-UBot](https://github.com/Ependelope53/GabutC-UBot)\n𖣘 **Grup Userbot: **[Tekan](t.me/LordUserbot_Group)\n𖣘 **Pemilik:** [Hendra](t.me/AkuUserBot)\n")
+        f"**Di Telegram** **Versi Bot Yang Digunakan** **`{BOT_VER}`** "
+        f"**Jumlah Modul Dalam GabutC-UBot** **`{len(modules)}`** \n\n"
+        f"𖣘 **Repo Userbot :** [GabutC-UBot](https://github.com/Ependelope53/GabutC-UBot)\n𖣘 **Grup Userbot : **[Tekan](t.me/LordUserbot_Group)\n𖣘 **Pemilik :** [Hendra](t.me/AkuUserBot)\n")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
