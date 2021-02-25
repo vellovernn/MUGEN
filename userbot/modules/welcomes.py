@@ -114,7 +114,7 @@ async def save_welcome(event):
         if BOTLOG_CHATID:
             await event.client.send_message(
                 BOTLOG_CHATID, f"#WELCOME \nID GRUP: {event.chat_id}"
-                "\nLord Memasang Pesan Perintah Welcome Digrup, Ini Adalah Catatan Pesan Welcome "
+                "\nBos Memasang Pesan Perintah Welcome Digrup, Ini Adalah Catatan Pesan Welcome "
                 "Mohon Jangan Dihapus Sayang!"
             )
             msg_o = await event.client.forward_messages(
@@ -167,7 +167,7 @@ async def del_welcome(event):
     if rm_welcome_setting(event.chat_id) is True:
         await event.edit("`Menghapus Pesan Welcome Berhasil Dilakukan ツ`")
     else:
-        await event.edit("`Anda Tidak Menyimpan Pesan Welcome Apapun Disini Lord ツ`")
+        await event.edit("`Anda Tidak Menyimpan Pesan Welcome Apapun Disini Sayang ツ`")
 
 
 CMD_HELP.update({
