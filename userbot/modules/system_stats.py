@@ -223,19 +223,19 @@ async def amireallyalive(alive):
     uptime = await get_readable_time((time.time() - StartTime))
     output = (
         f" **┗┓GabutC-UBot┏┛** \n"
-        f"✘ __SAYANG__ \n"
+        f"✖ **Aku Gabut Tau Hehehe** \n"
         f": `{DEFAULTUSER}` \n"
-        f"✘ __Username__ \n"
+        f"✖ **Username Orang Gabut Nih** \n"
         f": `@{user.username}` \n"
-        f"✘ __Telethon__ \n"
+        f"✖ **Versi Telethon Yang Digunakan** \n"
         f": `Versi {version.__version__}` \n"
-        f"✘ __Python__ \n"
+        f"✖ **Versi Python Yang Digunakan** \n"
         f": `Versi {python_version()}` \n"
-        f"✘ __Versi Bot__ \n"
+        f"✖ **Versi Bot GabutC-UBot** \n"
         f": `{BOT_VER}` \n"
-        f"✘ __Uptime__ \n"
+        f"✖ **Uptime GabutC-UBot** \n"
         f": `{uptime}` \n"
-        f"✘ __Modul__ \n"
+        f"✖ **Modul Yang Tersedia Di GabutC-UBot** \n"
         f": `{len(modules)}` \n")
     if ALIVE_LOGO:
         try:
@@ -297,16 +297,16 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f" **GabutC-UBot** \n\n"
-        f"💪 **BOS:** \n"
-        f"𐛐`{DEFAULTUSER}` \n"
-        f"💘 **Username:** \n"
-        f"❅ `@{user.username}` \n\n"
+        f"❤**GabutC-UBot** \n\n"
+        f"💛 **BOS:** \n"
+        f"💚 `{DEFAULTUSER}` \n"
+        f"💙 **Username:** \n"
+        f"💜 `@{user.username}` \n\n"
         f"**GabutC-UBot Adalah Userbot Khusus **"
         f"**Yang Digunakan Untuk Bersenang-Senang** "
         f"**Di Telegram** **Versi Bot Yang Digunakan** `{BOT_VER}` "
-        f"__Jumlah Modul Dalam GabutC-UBot__ `{len(modules)}` \n\n"
-        f"❃ **Repo Userbot:** [GabutC-UBot](https://github.com/Ependelope53/GabutC-UBot)\n❃ **Grup Userbot: **[Tekan](t.me/LordUserbot_Group)\n❃ **Pemilik:** [Hendra](t.me/AkuUserBot)\n")
+        f"**Jumlah Modul Dalam GabutC-UBot** `{len(modules)}` \n\n"
+        f"𖣘 **Repo Userbot:** [GabutC-UBot](https://github.com/Ependelope53/GabutC-UBot)\n𖣘 **Grup Userbot: **[Tekan](t.me/LordUserbot_Group)\n𖣘 **Pemilik:** [Hendra](t.me/AkuUserBot)\n")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
