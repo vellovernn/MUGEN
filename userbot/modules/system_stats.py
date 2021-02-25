@@ -265,12 +265,12 @@ async def amireallyalive(alive):
         f"**╭►▻►▻►▻►▻►▻►◄◅◄◅◄◅◄◅◄◅╮**\n"
         f"     **☻⚔ GabutC-UBot ⚔☻** \n\n"
         f"❅ **☠️ My Love**   ⇄ `{DEFAULTUSER}` \n"
-        f"❃ **👶 Username**  ⇄ `@{user.username}` \n"
+        f"❃ **👶 Username** ⇄ `@{user.username}` \n"
         f"❅ **💻 Telethon**  ⇄ `Versi {version.__version__}` \n"
         f"❃ **🐍 Python**    ⇄ `Versi {python_version()}` \n"
         f"❅ **⏳ Versi Bot** ⇄ `{BOT_VER}` \n"
         f"❃ **💡 Modul**     ⇄ `{len(modules)}` \n\n"
-        f"❅ **🔧 Repo Userbot:** [GabutC-UBot](https://github.com/Ependelope53/GabutC-UBot)\n❃ **Grup Userbot: **[Tekan](t.me/LordUserbot_Group)\n❃ **Pemilik:** [Hendra](t.me/AkuUserBot)\n"
+        f"❅ **🔧 Repo Userbot:** [GabutC-UBot](https://github.com/Ependelope53/GabutC-UBot)\n❃ **📞 Grup Userbot: **[Tekan](t.me/LordUserbot_Group)\n❃ **🙋‍♂️ Pemilik:** [Hendra](t.me/AkuUserBot)\n"
         f"**╰►▻►▻►▻►▻►▻►◄◅◄◅◄◅◄◅◄◅╯**")
     if ALIVE_LOGO:
         try:
