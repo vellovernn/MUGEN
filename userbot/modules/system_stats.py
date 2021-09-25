@@ -158,7 +158,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**☛**GabutC-UBot Versi:** \n "
+            "**☛**MUGEN Versi:** \n "
             f"{verout}"
             "\n**☛**Revisi:**\n "
             f"{revout}"
@@ -222,7 +222,7 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     uptime = await get_readable_time((time.time() - StartTime))
     output = (
-        f" **┗┓GabutC-UBot┏┛** \n"
+        f" **┗┓MUGEN┏┛** \n"
         f"✖ **Aku Gabut Tau Hehehe** \n"
         f": `{DEFAULTUSER}` \n"
         f"✖ **Username Orang Gabut Nih** \n"
@@ -231,11 +231,11 @@ async def amireallyalive(alive):
         f": `Versi {version.__version__}` \n"
         f"✖ **Versi Python Yang Digunakan** \n"
         f": `Versi {python_version()}` \n"
-        f"✖ **Versi Bot GabutC-UBot** \n"
+        f"✖ **Versi Bot MUGEN** \n"
         f": `{BOT_VER}` \n"
-        f"✖ **Uptime GabutC-UBot** \n"
+        f"✖ **Uptime MUGEN** \n"
         f": `{uptime}` \n"
-        f"✖ **Modul Yang Tersedia Di GabutC-UBot** \n"
+        f"✖ **Modul Yang Tersedia Di MUGEN** \n"
         f": `{len(modules)}` \n")
     if ALIVE_LOGO:
         try:
@@ -263,14 +263,14 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**╭►▻►▻►▻►▻►▻►◄◅◄◅◄◅◄◅◄◅╮**\n"
-        f"     **☻⚔ GabutC-UBot ⚔☻** \n\n"
+        f"     **☻⚔ MUGEN ⚔☻** \n\n"
         f"❅ **☠️ My Love**   ⇄ `{DEFAULTUSER}` \n"
         f"❃ **👶 Username** ⇄ `@{user.username}` \n"
         f"❅ **💻 Telethon**  ⇄ `Versi {version.__version__}` \n"
         f"❃ **🐍 Python**    ⇄ `Versi {python_version()}` \n"
         f"❅ **⏳ Versi Bot** ⇄ `{BOT_VER}` \n"
         f"❃ **💡 Modul**     ⇄ `{len(modules)}` \n\n"
-        f"❅ **🔧 Repo Userbot:** [GabutC-UBot](https://github.com/Ependelope53/GabutC-UBot)\n❃ **📞 Grup Userbot: **[Tekan](t.me/LordUserbot_Group)\n❃ **🙋‍♂️ Pemilik:** [Hendra](t.me/AkuUserBot)\n"
+        f"❅ **🔧 BY:** [MUGEN](https://t.me/Veernn)\n❃ **📞 Grup 18+: **[Tekan](t.me/Veernn)\n❃ **🙋‍♂️ Pemilik:** [MUGEN](t.me/Veernn)\n"
         f"**╰►▻►▻►▻►▻►▻►◄◅◄◅◄◅◄◅◄◅╯**")
     if ALIVE_LOGO:
         try:
@@ -297,16 +297,16 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"❤ : **GabutC-UBot** \n\n"
+        f"❤ : **MUGEN** \n\n"
         f"💛 : **BOS:** \n"
         f"💚 : **`{DEFAULTUSER}`** \n"
         f"💙 : **Username:** \n"
         f"💜 : **`@{user.username}`** \n\n"
-        f"**GabutC-UBot Adalah Userbot Khusus **"
+        f"**MUGEN Adalah Userbot Khusus **"
         f"**Yang Digunakan Untuk Bersenang-Senang** "
         f"**Di Telegram** **Versi Bot Yang Digunakan** **`{BOT_VER}`** "
         f"**Jumlah Modul Dalam GabutC-UBot** **`{len(modules)}`** \n\n"
-        f"𖣘 **Repo Userbot :** [GabutC-UBot](https://github.com/Ependelope53/GabutC-UBot)\n𖣘 **Grup Userbot : **[Tekan](t.me/LordUserbot_Group)\n𖣘 **Pemilik :** [Hendra](t.me/AkuUserBot)\n")
+        f"𖣘 **Repo Userbot :** [MUGEN](https://t.me/Veernn)\n𖣘 **Grup 18+ : **[Tekan](t.me/jeritanmalamclub)\n𖣘 **Pemilik :** [MUGEN](t.me/Veernn)\n")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
